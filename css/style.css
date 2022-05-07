@@ -107,7 +107,6 @@ body {
     height: 300px;
     align-items: center;
     display: flex;
-    
 }
 
 #imagen {
@@ -137,6 +136,11 @@ hr {
     text-align: center;
     color: white;
     background-color: #1f2632;
+    padding-bottom: 15px;
+}
+
+.fila5 {
+    padding-top: 20px;
 }
 
 .pdf {
@@ -153,13 +157,16 @@ footer {
     background-color: #17376f;
     color: #dcd8d8;
     height: 65px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
-video{
+video {
     padding-top: 5%;
     padding-bottom: 5%;
-
 }
+
 
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
 
@@ -184,5 +191,9 @@ video{
     }
     img {
         height: 60vw;
+    }
+    #imagen {
+        height: 425px;
+        width: 100%;
     }
 }
