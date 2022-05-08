@@ -48,7 +48,7 @@ h6 {
 }
 
 body {
-    margin: 0;
+    margin: 3.5vh;
 }
 
 
@@ -107,6 +107,7 @@ body {
     height: 300px;
     align-items: center;
     display: flex;
+    text-align: center;
 }
 
 #imagen {
@@ -157,9 +158,6 @@ footer {
     background-color: #17376f;
     color: #dcd8d8;
     height: 65px;
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top: 40px;
 }
 
 video {
